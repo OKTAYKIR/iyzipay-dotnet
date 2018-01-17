@@ -42,6 +42,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Tasks.Pack" Version="4.5.0" />
+  </ItemGroup>
+
   <PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
     <DefineConstants>$(DefineConstants);NETSTANDARD2</DefineConstants>
   </PropertyGroup>
